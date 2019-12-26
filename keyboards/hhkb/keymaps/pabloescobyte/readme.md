@@ -1,15 +1,11 @@
 # Pabloescobyte's personal HHKB layout
 
-This is my personal HHKB layout after installing a HASU into an HHKB Pro 2.
+This layout is meant to reduce the amount of movement from the home row as much as possible.
 
-Much of this layout is meant to mirror my daily driver--the minivan which is a 40% keyboard.
+The numbers are accessible via a secondary layer on the home row and the shifted symbols above it on the QWERTY row. The Function keys F1-F12 are on the ZXCV layer as well.
 
-I've set the CAPS key to FN1 and access layer 1, SPACEBAR functions as usual when tapped but when held down acts as FN2.
+There are four layers activated by the following keys: the CAPS is a momentary toggle, SPACEBAR is a momentary toggle if held down but otherwise functions as normal when tapped, RSHIFT held down and used with PL;' move the mouse cursor (up/left/down/right) with the left and right mouse buttons mapped to I/K for those situations where moving the mouse cursor is needed in a pinch.
 
-I've put the numbers under the home row and the corresponding shifted symbols above on the QWERTY row. Additionally the F-keys are on the ZXCV row.
-
-This allows me to keep my hands on home row at all times and simply hold down CAPS or SPACEBAR when I need number or symbols as well as to perform any hotkeys without having to over extend my reach for anything.
-
-The RSHIFT key is used as another momentary toggle. This time holding it down and using PL;' acts as a mouse cursor. RSHIFT+K is left click, RSHIFT+, is right-click. This helps me do everything on the keyboard without having to use the mouse unless absolutely necessary.
+One special layer is toggled on by tapping the rightmost 1u modifier key (adjacent to the spacebar) 4 times in rapid succession. This layer allows makes the keyboard function as normal and reverts the spacebar back to its normal functionality while keeping the primary navigation layer accessible via the CAPS key. Tapping the same 1u modifier 4 times reverts the keyboard back to the base layer and default layout.
 
 I should add that I use a trackball so my right arm and hand only have a short distance to travel in order to make precise selections or movements. 

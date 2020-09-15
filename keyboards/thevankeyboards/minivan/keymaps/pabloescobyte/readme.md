@@ -27,6 +27,13 @@ Layer 3 has the mouse cursor movement mapped to IJKL,
 
 This layer has the numrow as well as swapping the arrow keys for a nav cluster, and swapping ;: for '" and /? for \|. With that almost all of the missing keys are accounted for.
 
+```
+|ABT |ALA | UP |ARA |HOME|PGUP|VOLU| {  | }  | _  | +  | DEL|
+|    |LEFT|DOWN|RGHT|END |PGDN|VOLD| [  | ]  | -  | =  | ;  |
+|    |SALA|SARA|COPY|PAST|CUT |MUTE| (  | )  | <  | >  | \  |
+|    |    |CST |     CT       |   CMT   |    | ~  | `  |PIPE| 
+```
+
 ARROW CLUSTER
 WASD is mapped to the arrow keys. Even though there are already dedicated arrow keys on the bottom-right of the keyboard having the arrow keys under WASD allows me to navigate using only my left hand leaving my right hand to stay on the mouse/trackpad to click.
 
@@ -77,12 +84,6 @@ CMT:  COMMAND + \` (BACKTICK)
       Switch between currently open windows. \*mac OS only.
 ```
 
-```
-|ABT |ALA | UP |ARA |HOME|PGUP|VOLU| {  | }  | _  | +  | DEL|
-|    |LEFT|DOWN|RGHT|END |PGDN|VOLD| [  | ]  | -  | =  | ;  |
-|    |SALA|SARA|COPY|PAST|CUT |MUTE| (  | )  | <  | >  | \  |
-|    |    |CST |     CT       |   CMT   |    | ~  | `  |PIPE| 
-```
 ## Symbolic Layer (2)
 
 I don't want to be using two key combos constantly, so I also added this symbol layer that is basically shift+numeric layer

@@ -4,6 +4,11 @@ extern keymap_config_t keymap_config;
 
 
 // abbreviated modifier + keys
+
+// Switch between open windows on mac OS
+// Sends key combo CMD+`
+#define ABT A(KC_GRV)
+
 // ALT+Left Arrow/Right Arrow
 // OPT+Left Arrow/Right Arrow in mac OS
 #define ALA A(KC_LEFT)
@@ -66,12 +71,9 @@ extern keymap_config_t keymap_config;
 #define RSB KC_RBRC // ] right square bracket
 #define LCB S(KC_LBRC) // { left curly brace
 #define RCB S(KC_RBRC) // } right curly brace
- #define LPT S(KC_9) // ( left parentheses
+#define LPT S(KC_9) // ( left parentheses
 #define RPT S(KC_0) // ) right parentheses
 
-// Switch between open windows on mac OS
-// Sends key combo CMD+`
-#define AGR A(KC_GRV)
 
 
 
@@ -84,13 +86,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_LSFT,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM,   KC_DOT,  KC_UP,   KC_SLSH,
     KC_LCTL,   KC_LGUI, KC_LALT, LT(2, KC_SPC),             MO(3),            LT(4, SC), KC_LEFT, KC_DOWN, KC_RIGHT
   ),
-  [1] = LAYOUT_arrow( /* LAYER 2 */
-    AGR,       ALA,     FNUP,    ARA,     KC_HOME, KC_PGUP, VOLU,    LCB,     RCB,       KC_UNDS, KC_PLUS, KC_DEL,
+  [1] = LAYOUT_arrow( /* Navigation */
+    ABT,       ALA,     FNUP,    ARA,     KC_HOME, KC_PGUP, VOLU,    LCB,     RCB,       KC_UNDS, KC_PLUS, KC_DEL,
     KC_TRNS,   FNLA,    FNDN,    FNRA,    KC_END,  KC_PGDN, VOLD,    LSB,     RSB,       KC_MINS, KC_EQL,  KC_SCLN,
     KC_TRNS,   SALA,    SARA,    COPY,    PAST,    CUT,     MUTE,    LPT,     RPT,       KC_LT,   KC_GT,   KC_BSLS,
-    KC_TRNS,   KC_TRNS, KC_TRNS, CT,                        CMT,              KC_TRNS,   KC_TILD, KC_GRV,  KC_PIPE
+    KC_TRNS,   KC_TRNS, CST,     CT,                        CMT,              KC_TRNS,   KC_TILD, KC_GRV,  KC_PIPE
   ),
-  [2] = LAYOUT_arrow( /* LAYER 1 */
+  [2] = LAYOUT_arrow( /* Numbers row, shifted symbols and F-keys F1 thru F12 */
     KC_TILD,   S1,      S2,      S3,      S4,      S5,      S6,      S7,      S8,        S9,      S0,      KC_DEL,
     KC_TRNS,   KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,      KC_9,    KC_0,    KC_MINS,
     KC_F12,    KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,     KC_F9,   KC_F10,  KC_F11,

@@ -6,5 +6,3 @@
 #ifndef USB_MAX_POWER_CONSUMPTION
 #    define USB_MAX_POWER_CONSUMPTION 100
 #endif
-
-#define TAPPING_TERM 175
